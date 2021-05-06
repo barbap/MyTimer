@@ -13,6 +13,10 @@
 		2442CDA52644566A003A9FB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442CD9026445669003A9FB4 /* ContentView.swift */; };
 		2442CDA62644566A003A9FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2442CD912644566A003A9FB4 /* Assets.xcassets */; };
 		2442CDA72644566A003A9FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2442CD912644566A003A9FB4 /* Assets.xcassets */; };
+		2442CDB1264456B3003A9FB4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442CDB0264456B3003A9FB4 /* Helper.swift */; };
+		2442CDB2264456B3003A9FB4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442CDB0264456B3003A9FB4 /* Helper.swift */; };
+		2442CDB4264477B5003A9FB4 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442CDB3264477B5003A9FB4 /* TimerManager.swift */; };
+		2442CDB5264477B5003A9FB4 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2442CDB3264477B5003A9FB4 /* TimerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,8 @@
 		2442CD9E2644566A003A9FB4 /* TimerEx1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerEx1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2442CDA02644566A003A9FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2442CDA12644566A003A9FB4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		2442CDB0264456B3003A9FB4 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		2442CDB3264477B5003A9FB4 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,8 @@
 			children = (
 				2442CD8F26445669003A9FB4 /* TimerEx1App.swift */,
 				2442CD9026445669003A9FB4 /* ContentView.swift */,
+				2442CDB3264477B5003A9FB4 /* TimerManager.swift */,
+				2442CDB0264456B3003A9FB4 /* Helper.swift */,
 				2442CD912644566A003A9FB4 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -188,7 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2442CDA42644566A003A9FB4 /* ContentView.swift in Sources */,
+				2442CDB4264477B5003A9FB4 /* TimerManager.swift in Sources */,
 				2442CDA22644566A003A9FB4 /* TimerEx1App.swift in Sources */,
+				2442CDB1264456B3003A9FB4 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2442CDA52644566A003A9FB4 /* ContentView.swift in Sources */,
+				2442CDB5264477B5003A9FB4 /* TimerManager.swift in Sources */,
 				2442CDA32644566A003A9FB4 /* TimerEx1App.swift in Sources */,
+				2442CDB2264456B3003A9FB4 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
